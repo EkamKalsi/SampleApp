@@ -18,3 +18,5 @@ doc/
 .DS_Store
 .idea
 .secret
+.env
+SampleApp::Application.config.secret_token = ENV['SECRET_TOKEN']
